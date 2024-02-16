@@ -1,7 +1,8 @@
 
 import datetime
 
-year = int(input('Enter Year: '))
+#year = int(input('Enter Year: '))
+year = 2021
 
 monday = 0
 
