@@ -6,8 +6,8 @@ def prev_day(day):
     week_days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
 
     today = dt.date.today()
-    t_dw = today.weekday()
-    dw = week_days.index(day)
+    t_dw = today.weekday()                  # 4         1
+    dw = week_days.index(day)               # 3         3
 
     diff = dw - t_dw
 
@@ -20,6 +20,6 @@ def prev_day(day):
 
 
 print('Today :', dt.date.today())
-print('Prev:', prev_day('sunday'))
+print('Prev:', prev_day('thursday'))
 
 

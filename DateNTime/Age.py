@@ -7,6 +7,7 @@ def age(dob):
     today = date.today()
 
     years = today.year - dob.year
+    print(years)
 
     if (today.month , today.day) < (dob.month, dob.day):
         years -= 1
@@ -14,4 +15,4 @@ def age(dob):
     return years
 
 
-print('Age:', age(date(2000, 7, 1)))
+print('Age:', age(date(1997, 11, 8)))
